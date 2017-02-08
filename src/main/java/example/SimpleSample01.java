@@ -7,8 +7,8 @@ import org.apache.commons.logging.LogFactory;
 /**
  * Created by 李前程 on 2017/2/8.
  */
-public class SimpleSample extends ChaincodeBase{
-    private static Log log = LogFactory.getLog(SimpleSample.class);
+public class SimpleSample01 extends ChaincodeBase{
+    private static Log log = LogFactory.getLog(SimpleSample01.class);
 
     @Override
     public String run(ChaincodeStub stub, String function, String[] args) {
@@ -130,11 +130,11 @@ public class SimpleSample extends ChaincodeBase{
 
     @Override
     public String getChaincodeID() {
-        return "SimpleSample";
+        return "SimpleSample01";
     }
 
     public static void main(String[] args) throws Exception {
-        new SimpleSample().start(args);
+        new SimpleSample01().start(args);
     }
 
 }
