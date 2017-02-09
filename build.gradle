@@ -20,7 +20,7 @@ task printClasspath {
 }
 
 archivesBaseName = "chaincode"
-mainClassName="example.SimpleSample01"
+mainClassName="example.TestSimple"
 
 run {
     if (project.hasProperty("appArgs")) {
