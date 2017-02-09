@@ -8,7 +8,7 @@ import org.apache.commons.logging.LogFactory;
  * Created by 李前程 on 2017/2/9.
  */
 public class TestSimple extends ChaincodeBase{
-    private static Log log = LogFactory.getLog(SimpleSample01.class);
+    private static Log log = LogFactory.getLog(TestSimple.class);
 
     @Override
     public String run(ChaincodeStub stub, String function, String[] args) {
